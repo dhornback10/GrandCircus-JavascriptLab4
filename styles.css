@@ -1,0 +1,14 @@
+body{
+	background-color: lightblue;
+}
+
+.disappear {
+	display:none;
+}
+div {
+	text-align: center;
+	margin: 10px auto;
+}
+.appear {
+	display: block;
+}

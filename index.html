@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Grant The Almighty Chicken</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+<body>
+    <main>
+        <div id="startDiv" class="appear">
+            <button id="startButton">Start</button>
+        </div>
+        <div id="gameDiv" class="disappear">
+            <div id="buttons">
+                <button id="attackButton">Attack</button>
+                <button id="healButton">Heal</button>
+                <button id="quitButton">Quit</button>
+            </div>
+            <p id="messages">
+                <!-- message -->
+            </p>
+            <div id="barsDiv">
+                <p id="playerName">
+                    <!-- name -->
+                </p>
+                <label>Health</label><progress id="healthBar" value="40" max="40"></progress>
+                <label>Heals Remaining</label><progress id="healBar" value="2" max="2"></progress>
+                <label>Wins</label><progress id="winBar" value="0" max="5">
+                </progress>
+                <div id="grantDiv">
+                    GRANT THE ALMIGHTY CHICKEN'S STATS:
+                    <label>Health:</label><progress id="grantHealthBar" value="10" max="10"></progress>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
